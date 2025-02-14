@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Default */
+html {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #f0eeee;
+    background-color: #7db5db;
+}
+
+h1 {
+    font-size: 8em;
+}
+
+/* Main */
+main {
+    padding-top: 30px;
+}
+
+/* Main-Dog */
+main .dog {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main .dog img {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    min-width: 200px;
+}
+
+/* Footer */
+footer {
+    margin: 0;
+    color: #f0eeee;
+    align-self: center;
+    height: 3vh;
+    background-color: #102462;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h6 {
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0 0 0;
+}
+
+footer b {
+    color: #7db5db;
+    font-weight: 800;
+}
+
+
