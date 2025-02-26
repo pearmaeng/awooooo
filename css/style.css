@@ -19,6 +19,30 @@ h1 {
     font-size: 8em;
 }
 
+.sound-button {
+    position: fixed;
+    bottom: 5vw;
+    left: 5vw;
+    z-index: 1;
+}
+
+button {
+    background-color: white;
+    color: #102462;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    border: none;
+    box-shadow: 0px 2px 2px 1px #10246280;
+}
+
+button:hover {
+    background-color: #7db5db;
+    color: #f0eeee;
+}
+
+
 /* Main */
 main {
     padding-top: 30px;
@@ -60,5 +84,3 @@ footer b {
     color: #7db5db;
     font-weight: 800;
 }
-
-
